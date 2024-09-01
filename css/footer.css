@@ -17,7 +17,7 @@
     padding: .5em;
 }
 .footer .red-grande{
-background-color: crimson;
+background-color: rgb(157, 20, 220);
 padding:  1em;
 text-align: center;
 }
@@ -36,4 +36,22 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+.footer .red-chica{
+    background-color: white;
+    padding: 1em;
+    border-radius: 50%;
+    max-width: 30px;
+    display: block;
+    margin: auto;
+    
+}
+@media(min-width:992px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-header{
+        align-items: flex-end;
+    }
 }
